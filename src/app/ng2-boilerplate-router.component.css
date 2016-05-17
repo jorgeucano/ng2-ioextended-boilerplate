@@ -1,0 +1,15 @@
+nav{
+  text-align: center;
+  margin:3%;
+}
+.demo-layout-transparent {
+  background: url('http://teaksf.com/wp/wp-content/uploads/Google_IO_casestudy_Marquee.png') center / cover;
+  width: 100%;
+  height: 300px;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}

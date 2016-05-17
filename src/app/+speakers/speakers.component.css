@@ -1,0 +1,24 @@
+
+.speakers{
+  width: 100%;
+}
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+.demo-card-square.yury > .mdl-card__title {
+  color: #fff;
+  background:
+    url('/img/yury.png') 100% no-repeat #46B6AC;
+}
+.demo-card-square.jorge > .mdl-card__title {
+  color: #fff;
+  background:
+    url('/img/jorge.png') 100% no-repeat #46B6AC;
+}
+
+.demo-card-square.juan > .mdl-card__title {
+  color: #fff;
+  background:
+    url('/img/juan.png') 100% no-repeat #46B6AC;
+}

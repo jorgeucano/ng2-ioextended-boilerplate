@@ -1,0 +1,33 @@
+<div class="demo-layout-transparent mdl-layout mdl-js-layout">
+  <header class="mdl-layout__header mdl-layout__header--transparent">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">{{title}}</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation -->
+    </div>
+  </header>
+</div>
+<nav>
+  <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" [routerLink]="['live']">
+    Live Video
+  </a>
+  <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" [routerLink]="['extended']">
+    Extended
+  </a>
+  <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" [routerLink]="['speakers']">
+    Speakers
+  </a>
+  <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" [routerLink]="['registracion']">
+    Registrarse
+  </a>
+</nav>
+<center>
+  <router-outlet></router-outlet>
+</center>
+<div style="float:center;">
+  <center>
+      <h3>Google IO Extended del GDG Buenos Aires</h3>
+  </center>
+</div>
