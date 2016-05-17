@@ -15,10 +15,12 @@
   color: #fff;
   background:
     url('/img/jorge.png') 100% no-repeat #46B6AC;
+    -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;
+    background-size: cover;
 }
 
 .demo-card-square.juan > .mdl-card__title {
   color: #fff;
   background:
-    url('/img/juan.png') 100% no-repeat #46B6AC;
+    url('https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAALiAAAAJDQ0MWJlY2Q4LTk3ZWQtNGVhNC05YWUzLWIwNDlhZTEyNTM4MQ.jpg') 100% no-repeat #46B6AC;
 }

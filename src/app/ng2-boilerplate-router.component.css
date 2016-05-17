@@ -13,3 +13,13 @@ nav{
      your background is light. */
   color: white;
 }
+footer{
+  color: #546E7A;
+  font-size: 12px;
+  min-height: 128px;
+  padding: 0 16px 0 16px;
+  margin-top:20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background:#F7F9F9;
+}
